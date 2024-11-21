@@ -1,0 +1,37 @@
+/* Estilo General del Header */
+header {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-family: "Georgia", serif;
+    letter-spacing: 1px;
+}
+
+.bg-light nav a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.bg-light nav a:hover {
+    text-decoration: underline;
+}
+
+/* Botón Reservar */
+.btn-outline-dark {
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-width: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-dark:hover {
+    background-color: #333;
+    color: #fff;
+}
